@@ -25,7 +25,7 @@ paginate = 5
   #orgDescription = "Here is a description placeholder for your org"
 
   author = "JS"
-  authorAvatar = "img/ghost-icon.png"
+  authorAvatar = "img/JustinStark-Small.png"
   authorLocation = "Lincoln, NE"
   authorWebsite = "https://justinjstark.com"
   authorDescription = "Describe yourself.."
