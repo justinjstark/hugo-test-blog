@@ -1,6 +1,6 @@
 [build]
-  command = "bin/hugo.exe"
+  command = "hugo -s site -d ../dist"
   publish = "dist"
 
 [context.deploy-preview]
-  command = "bin/hugo.exe -d dist -s site --buildDrafts --buildFuture"
+  command = "hugo -s site -d ../dist --buildDrafts --buildFuture"
