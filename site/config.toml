@@ -1,3 +1,48 @@
-baseURL = "http://example.org/"
+baseURL = "/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+disqusShortname = ""
+paginate = 5
+
+[params]
+  title       = "Justin J Stark"
+  subtitle    = "Software Developer"
+
+  cover       = "img/blog-cover.jpg"
+  description = "Here is a description of your site."
+  metaDescription = ""
+  googleAnalytics = ""
+  customCSS = []
+  RSSLink = ""
+
+  twitterName = "justinjstark"
+  #fbName = ""
+  githubName = "justinjstark"
+
+  logo = "hugo-logo.png"
+  #orgName = "EM"
+  #orgWebsite = "https://www.telematika.org"
+  #orgDescription = "Here is a description placeholder for your org"
+
+  author = "JS"
+  authorAvatar = "img/ghost-icon.png"
+  authorLocation = "Lincoln, NE"
+  authorWebsite = "https://justinjstark.com"
+  authorDescription = "Describe yourself.."
+
+  pageNotFoundTitle = "404 - Page not found"
+
+  #casper or caspertwo
+  singleViewStyle = "caspertwo"
+
+[permalinks]
+  post = "/:slug/"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 200
+
+[[menu.main]]
+  name = "About"
+  url = "/pages/about"
+  weight = 100

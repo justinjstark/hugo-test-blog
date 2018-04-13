@@ -1,0 +1,3 @@
+[submodule "site/themes/casper-two"]
+	path = site/themes/casper-two
+	url = https://github.com/eueung/hugo-casper-two
