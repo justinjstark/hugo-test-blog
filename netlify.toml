@@ -4,3 +4,8 @@
 
 [context.deploy-preview]
   command = "hugo -s site -d ../dist --buildDrafts --buildFuture"
+
+[context.deploy-preview.environment]
+  HUGO_VERSION = "0.38.2"
+[context.production.environment]
+  HUGO_VERSION = "0.38.2"
