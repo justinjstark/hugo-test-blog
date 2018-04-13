@@ -1,4 +1,5 @@
 baseURL = "/"
+theme = "casper-two"
 languageCode = "en-us"
 disqusShortname = ""
 paginate = 5
