@@ -24,11 +24,11 @@ paginate = 5
   #orgWebsite = "https://www.telematika.org"
   #orgDescription = "Here is a description placeholder for your org"
 
-  author = "JS"
+  author = "Justin J Stark"
   authorAvatar = "img/JustinStark-Small.png"
   authorLocation = "Lincoln, NE"
   authorWebsite = "https://justinjstark.com"
-  authorDescription = "Describe yourself.."
+  authorDescription = "Software Developer in Lincoln, NE"
 
   pageNotFoundTitle = "404 - Page not found"
 
