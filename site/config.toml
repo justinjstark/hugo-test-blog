@@ -33,7 +33,7 @@ paginate = 5
   pageNotFoundTitle = "404 - Page not found"
 
   #casper or caspertwo
-  singleViewStyle = "caspertwo"
+  singleViewStyle = "casper"
 
 [permalinks]
   post = "/:slug/"
