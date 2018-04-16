@@ -1,16 +1,16 @@
 baseURL = "/"
 theme = "casper-two"
 languageCode = "en-us"
+title = "Justin J Stark"
 disqusShortname = ""
 paginate = 5
 
 [params]
   title       = "Justin J Stark"
   subtitle    = "Software Developer"
-
-  cover       = "img/blog-cover.jpg"
+  cover       = ""
   description = "Here is a description of your site."
-  metaDescription = ""
+  metaDescription = "Software Developer in Lincoln, NE"
   googleAnalytics = ""
   customCSS = []
   RSSLink = ""
