@@ -13,7 +13,7 @@ paginate = 5
   metaDescription = "Software Developer in Lincoln, NE"
   googleAnalytics = ""
   customCSS = []
-  RSSLink = ""
+  RSSLink = "https://justinjstark.com/post/index.xml"
 
   twitterName = "justinjstark"
   #fbName = ""
