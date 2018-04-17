@@ -1,7 +1,6 @@
 ---
 title: Welcome to my blog!
 date: 2018-04-13T19:15:04.000Z
-tags: ''
 image: ''
 ---
 ```f#
