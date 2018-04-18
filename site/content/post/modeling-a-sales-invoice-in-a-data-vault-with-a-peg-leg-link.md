@@ -1,6 +1,6 @@
 ---
 title: Modeling a Sales Invoice in a Data Vault with a Peg Leg Link
-draft: true
+draft: false
 date: '2016-07-06T00:00:00-05:00'
 image: /img/neonbrand-587583-unsplash.jpg
 ---
