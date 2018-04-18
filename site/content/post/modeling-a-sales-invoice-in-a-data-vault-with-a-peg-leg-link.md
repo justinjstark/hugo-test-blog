@@ -2,10 +2,9 @@
 title: Modeling a Sales Invoice in a Data Vault with a Peg Leg Link
 draft: true
 date: '2016-07-06T00:00:00-05:00'
+image: /img/neonbrand-587583-unsplash.jpg
 ---
 One of the great things about Data Vault modeling is its simplicity. There are only three types of entities: Hubs, Links, and Satellites. Hubs are the business entities. Links join any combination of Hubs and other Links. And Satellites hang from Links and Hubs to hold the temporal quantifiers and descriptors.
-
-As with any method of modeling, however, there are multiple ways to represent the information. It is our job, as developers, to work with the business owners and determine what model makes the most sense while meeting the business requirements. And sometimes we run into cases where our business model doesn’t fit our modeling constraints and we need to bend the rules.
 
 A common business model is a Sales Invoice and its associated Line Items. The following model, represented in Third Normal Form, allows for one Product per Line Item and one Customer per Sales Invoice. We will work on modeling this relationship in a Data Vault.
 
@@ -49,4 +48,4 @@ Finally, we can add Customer back in to our Data Vault model.
 
 ![The Sales Invoice Model in a Data Vault with Customer included](/img/SalesInvoiceDV5.svg)
 
-This is about as simple as our Data Vault model can get. While the model has over twice as many tables as the original Third Normal Form model, we have managed to keep the complexity to a minimum by evaluating the model and removing redundancies along the way.
+This is about as simple as our Data Vault model can get. By evaluating our model, removing redundancies, and bending some rules, we have managed to keep the complexity to a minimum.
