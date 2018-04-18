@@ -1,6 +1,6 @@
 ---
 title: Modeling a Sales Invoice in a Data Vault with a Peg Leg Link
-draft: true
+draft: false
 date: '2016-07-06T00:00:00-05:00'
 ---
 One of the great things about Data Vault modeling is its simplicity. There are only three types of entities: Hubs, Links, and Satellites. Hubs are the business entities. Links join any combination of Hubs and other Links. And Satellites hang from Links and Hubs to hold the temporal quantifiers and descriptors.
